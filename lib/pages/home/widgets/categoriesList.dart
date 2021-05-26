@@ -9,7 +9,6 @@ class CategoriesList extends StatelessWidget {
   Widget build(BuildContext context) {
     // call the home controller
     final HomeController _controller = Get.find();
-    //print(_controller.categories.length);
 
     return Obx(() {
       return SizedBox(

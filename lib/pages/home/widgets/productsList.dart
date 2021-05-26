@@ -10,9 +10,6 @@ class ProductsList extends StatelessWidget {
     final double itemHeight = 190;
     final double itemWidth = Get.width / 2 - 100;
 
-    print("Now available products:");
-    print(_controller.products.map((element) => print(element.getName)));
-
     return Obx(() {
       return SliverGrid(
         gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
